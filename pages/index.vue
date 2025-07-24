@@ -85,6 +85,7 @@ const pageGroups = ref([
     title: '관리자 (Manager)',
     links: [
       { to: '/mg-op/applicant-list', name: '가입신청목록', icon: ICONS.pending },
+      { to: '/mg-op/applicant-view/1', name: '가입신청상세', icon: ICONS.pending },
     ],
   },
 ]);
