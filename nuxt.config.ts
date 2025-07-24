@@ -3,6 +3,7 @@ const isDev = process.env.NODE_ENV === 'development'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
+    '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
   ],
