@@ -81,6 +81,12 @@ const pageGroups = ref([
       { to: '/terms-agreement', name: '약관 동의', icon: ICONS.terms },
     ],
   },
+  {
+    title: '관리자 (Manager)',
+    links: [
+      { to: '/mg-op/applicant-list', name: '가입신청목록', icon: ICONS.pending },
+    ],
+  },
 ]);
 
 /**
