@@ -86,8 +86,8 @@ const pageGroups = ref([
     links: [
       { to: '/mg-op/applicant-list', name: '가입신청목록', icon: ICONS.pending },
       { to: '/mg-op/applicant-view/1', name: '가입신청상세', icon: ICONS.pending },
-      { to: '/mg-op/op-list', name: '운영자목록', icon: ICONS.pending },
-      { to: '/mg-op/op-view/1', name: '운영자상세', icon: ICONS.pending },
+      { to: '/mg-op/operator-list', name: '운영자목록', icon: ICONS.pending },
+      { to: '/mg-op/operator-view/1', name: '운영자상세', icon: ICONS.pending },
     ],
   },
 ]);
