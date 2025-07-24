@@ -149,7 +149,7 @@ const paginatedOperators = computed(() => {
 // 상세 페이지로 이동하는 함수
 const goToDetail = (operatorId: number) => {
   // 실제 상세 페이지 경로로 수정하세요
-  router.push(`/mg-op/op-list/${operatorId}`);
+  router.push(`/mg-op/operator-view/${operatorId}`);
 };
 
 // 페이지를 변경하는 함수

@@ -4,7 +4,7 @@
     <nav class="breadcrumb-nav">
       <NuxtLink to="/mg-op" class="breadcrumb-link">운영자 관리</NuxtLink>
       <span class="mx-2">/</span>
-      <NuxtLink to="/mg-op/op-list" class="breadcrumb-link">운영자 목록</NuxtLink>
+      <NuxtLink to="/mg-op/operator-list" class="breadcrumb-link">운영자 목록</NuxtLink>
       <span class="mx-2">/</span>
       <span class="breadcrumb-current">운영자 상세 정보</span>
     </nav>
@@ -73,7 +73,7 @@ import { ref, onMounted } from 'vue';
 import { useRoute, useRouter } from 'nuxt/app';
 import { format } from 'date-fns';
 
-// TypeScript 인터페이스 (op-list.vue와 동일하게 정의)
+// TypeScript 인터페이스 (operator-list.vue와 동일하게 정의)
 interface Operator {
   id: number;
   name: string;
@@ -134,7 +134,7 @@ onMounted(async () => {
 
 // 목록 페이지로 이동
 const goToList = () => {
-  router.push('/mg-op/op-list');
+  router.push('/mg-op/operator-list');
 };
 </script>
 
