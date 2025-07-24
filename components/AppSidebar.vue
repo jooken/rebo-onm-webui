@@ -53,7 +53,7 @@ const sidebarMenus: SidebarMenu[] = [
   {
     id: 1, title: '운영자 관리', path: '/mg-op', children: [
       { id: 101, title: '가입신청관리', path: '/mg-op/applicant-list' },
-      { id: 102, title: '운영자목록', path: '/mg-op/manager-list' }
+      { id: 102, title: '운영자목록', path: '/mg-op/op-list' }
     ]
   },
   {
