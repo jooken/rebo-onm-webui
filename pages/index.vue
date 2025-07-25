@@ -73,7 +73,7 @@ const pageGroups = ref([
     ],
   },
   {
-    title: '회원가입 (Sign-Up)',
+    title: '운영자가입 (Sign-Up)',
     links: [
       { to: '/sign-up', name: '가입 이메일 인증', icon: ICONS.newUser },
       { to: '/sign-up-form', params: {email:'user@eoground.com'}, name: '가입 정보 입력', icon: ICONS.form },
@@ -82,7 +82,7 @@ const pageGroups = ref([
     ],
   },
   {
-    title: '관리자 (Manager)',
+    title: '운영자 (Operator)',
     links: [
       { to: '/operator/applicant-list', name: '가입신청목록', icon: ICONS.pending },
       { to: '/operator/applicant-view/1', name: '가입신청상세', icon: ICONS.pending },
@@ -90,6 +90,12 @@ const pageGroups = ref([
       { to: '/operator/operator-view/1', name: '운영자상세', icon: ICONS.pending },
     ],
   },
+  {
+    title: '회원 (Member)',
+    links: [
+      { to: '/member/member-list', name: '회원목록', icon: ICONS.pending },
+    ]
+  }
 ]);
 
 /**
