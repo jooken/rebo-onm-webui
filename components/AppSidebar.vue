@@ -51,9 +51,9 @@ interface SidebarMenu {
 // 사이드바 메뉴 데이터
 const sidebarMenus: SidebarMenu[] = [
   {
-    id: 1, title: '운영자 관리', path: '/mg-op', children: [
-      { id: 101, title: '가입신청관리', path: '/mg-op/applicant-list' },
-      { id: 102, title: '운영자목록', path: '/mg-op/operator-list' }
+    id: 1, title: '운영자 관리', path: '/operator', children: [
+      { id: 101, title: '가입신청관리', path: '/operator/applicant-list' },
+      { id: 102, title: '운영자목록', path: '/operator/operator-list' }
     ]
   },
   {

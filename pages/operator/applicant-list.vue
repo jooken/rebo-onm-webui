@@ -2,7 +2,7 @@
   <div>
     <!-- 페이지 경로 (Breadcrumb) -->
     <nav class="breadcrumb-nav">
-      <NuxtLink to="/mg-op" class="breadcrumb-link">운영자 관리</NuxtLink>
+      <NuxtLink to="/pages/operator" class="breadcrumb-link">운영자 관리</NuxtLink>
       <span class="mx-2">/</span>
       <span class="breadcrumb-current">운영자 가입 신청 관리</span>
     </nav>

@@ -2,9 +2,9 @@
   <div>
     <!-- 페이지 경로 (Breadcrumb) -->
     <nav class="breadcrumb-nav">
-      <NuxtLink to="/mg-op" class="breadcrumb-link">운영자 관리</NuxtLink>
+      <NuxtLink to="/pages/operator" class="breadcrumb-link">운영자 관리</NuxtLink>
       <span class="mx-2">/</span>
-      <NuxtLink to="/mg-op/applicant-list" class="breadcrumb-link">운영자 가입 신청 관리</NuxtLink>
+      <NuxtLink to="/pages/operator/applicant-list" class="breadcrumb-link">운영자 가입 신청 관리</NuxtLink>
       <span class="mx-2">/</span>
       <span class="breadcrumb-current">신청자 상세 정보</span>
     </nav>
@@ -188,7 +188,7 @@ onMounted(async () => {
 
 // 목록 페이지로 이동
 const goToList = () => {
-  router.push('/mg-op/applicant-list');
+  router.push('/operator/applicant-list');
 };
 
 // 심사 모달 열기

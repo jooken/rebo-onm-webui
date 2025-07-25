@@ -2,7 +2,7 @@
   <div>
     <!-- 페이지 경로 (Breadcrumb) -->
     <nav class="breadcrumb-nav">
-      <NuxtLink to="/mg-op" class="breadcrumb-link">운영자 관리</NuxtLink>
+      <NuxtLink to="/pages/operator" class="breadcrumb-link">운영자 관리</NuxtLink>
       <span class="mx-2">/</span>
       <span class="breadcrumb-current">운영자 목록</span>
     </nav>
@@ -149,7 +149,7 @@ const paginatedOperators = computed(() => {
 // 상세 페이지로 이동하는 함수
 const goToDetail = (operatorId: number) => {
   // 실제 상세 페이지 경로로 수정하세요
-  router.push(`/mg-op/operator-view/${operatorId}`);
+  router.push(`/operator/operator-view/${operatorId}`);
 };
 
 // 페이지를 변경하는 함수
