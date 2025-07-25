@@ -80,7 +80,7 @@
       <div class="footer-link-section">
         <p class="footer-text">
           이미 계정이 있으신가요?
-          <NuxtLink to="/sign-in" class="link">로그인</NuxtLink>
+          <NuxtLink to="/auth/sign-in" class="link">로그인</NuxtLink>
         </p>
       </div>
     </div>
@@ -196,7 +196,7 @@ const verifyOtpCode = async () => {
     // 성공 시
     stopTimer();
     alert('회원가입이 완료되었습니다. 로그인 페이지로 이동합니다.');
-    router.push('/sign-in'); // 로그인 페이지로 이동
+    router.push('/auth/sign-in'); // 로그인 페이지로 이동
 
   } catch (error) {
     console.error(error);

@@ -80,7 +80,7 @@
       <div class="footer-link-section">
         <p class="footer-text">
           계정이 없으시면?
-          <NuxtLink to="/sign-up" class="link">관리자가입</NuxtLink>
+          <NuxtLink to="/auth/sign-up" class="link">관리자가입</NuxtLink>
         </p>
       </div>
     </div>

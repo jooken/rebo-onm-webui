@@ -26,7 +26,7 @@
 
       <!-- 버튼 -->
       <div class="button-wrapper">
-        <NuxtLink to="/sign-in" class="btn btn-primary">
+        <NuxtLink to="/auth/sign-in" class="btn btn-primary">
           로그인 페이지로 돌아가기
         </NuxtLink>
       </div>
@@ -42,7 +42,7 @@ useHead({
 
 const route = useRoute();
 
-// URL의 쿼리 파라미터에서 이메일 주소를 가져옵니다. (예: /sign-up-pending?email=user@example.com)
+// URL의 쿼리 파라미터에서 이메일 주소를 가져옵니다. (예: /auth/sign-up-pending?email=user@example.com)
 const userEmail = computed(() => route.query.email || '');
 </script>
 

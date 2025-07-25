@@ -69,16 +69,16 @@ const pageGroups = ref([
   {
     title: '인증 (Authentication)',
     links: [
-      { to: '/sign-in', name: '로그인', icon: ICONS.login },
+      { to: '/auth/sign-in', name: '로그인', icon: ICONS.login },
     ],
   },
   {
     title: '운영자가입 (Sign-Up)',
     links: [
-      { to: '/sign-up', name: '가입 이메일 인증', icon: ICONS.newUser },
-      { to: '/sign-up-form', params: {email:'user@eoground.com'}, name: '가입 정보 입력', icon: ICONS.form },
-      { to: '/sign-up-pending', name: '가입 승인 대기', icon: ICONS.pending },
-      { to: '/terms-agreement', name: '약관 동의', icon: ICONS.terms },
+      { to: '/auth/sign-up', name: '가입 이메일 인증', icon: ICONS.newUser },
+      { to: '/auth/sign-up-form', params: {email:'user@eoground.com'}, name: '가입 정보 입력', icon: ICONS.form },
+      { to: '/auth/sign-up-pending', name: '가입 승인 대기', icon: ICONS.pending },
+      { to: '/auth/terms-agreement', name: '약관 동의', icon: ICONS.terms },
     ],
   },
   {

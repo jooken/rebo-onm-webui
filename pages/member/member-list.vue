@@ -2,7 +2,7 @@
   <div>
     <!-- 페이지 경로 (Breadcrumb) -->
     <nav class="breadcrumb-nav">
-      <NuxtLink to="/pages/member" class="breadcrumb-link">회원 관리</NuxtLink>
+      <NuxtLink to="/member" class="breadcrumb-link">회원 관리</NuxtLink>
       <span class="mx-2">/</span>
       <span class="breadcrumb-current">회원 목록</span>
     </nav>

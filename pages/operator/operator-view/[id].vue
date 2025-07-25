@@ -2,9 +2,9 @@
   <div>
     <!-- 페이지 경로 (Breadcrumb) -->
     <nav class="breadcrumb-nav">
-      <NuxtLink to="/pages/operator" class="breadcrumb-link">운영자 관리</NuxtLink>
+      <NuxtLink to="/operator" class="breadcrumb-link">운영자 관리</NuxtLink>
       <span class="mx-2">/</span>
-      <NuxtLink to="/pages/operator/operator-list" class="breadcrumb-link">운영자 목록</NuxtLink>
+      <NuxtLink to="/operator/operator-list" class="breadcrumb-link">운영자 목록</NuxtLink>
       <span class="mx-2">/</span>
       <span class="breadcrumb-current">운영자 상세 정보</span>
     </nav>

@@ -35,7 +35,7 @@
 <script setup lang="ts">
 import { reactive, ref, onMounted } from 'vue';
 import { useRoute, useRouter } from 'nuxt/app';
-import FormField from '@/components/FormField.vue'
+import FormField from '~/components/FormField.vue'
 
 // Nuxt의 라우터와 라우트 훅을 사용합니다.
 const route = useRoute();
@@ -66,7 +66,7 @@ onMounted(() => {
   } else {
     // 이메일 정보가 없으면, 사용자를 이전 페이지로 돌려보내는 것이 좋습니다.
     alert('잘못된 접근입니다. 이메일 인증을 먼저 진행해주세요.');
-    router.push('/sign-up');
+    router.push('/auth/sign-up');
   }
 });
 
@@ -114,7 +114,7 @@ const handleSubmit = async () => {
     // });
 
     alert('가입 신청이 완료되었습니다. 관리자 승인 후 로그인할 수 있습니다.');
-    router.push('/sign-in'); // 로그인 페이지로 리디렉션
+    router.push('/auth/sign-in'); // 로그인 페이지로 리디렉션
 
   } catch (error) {
     console.error('가입 신청 실패:', error);

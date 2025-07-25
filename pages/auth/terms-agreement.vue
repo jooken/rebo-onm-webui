@@ -218,7 +218,7 @@ const handleSubmit = async () => {
     // 성공 시 가입 폼 페이지로 이동 (이메일 정보는 쿼리로 전달)
     // 실제로는 이전 단계의 이메일 정보를 상태 관리(Pinia)나 쿼리에서 가져와야 함
     const email = 'user@example.com'; // 임시 이메일
-    router.push(`/sign-up-form?email=${email}`);
+    router.push(`/auth/sign-up-form?email=${email}`);
 
   } catch (error) {
     console.error('약관 동의 처리 실패:', error);

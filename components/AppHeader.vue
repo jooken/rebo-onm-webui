@@ -70,7 +70,7 @@ const signOut = async () => {
   // 스토어의 로그아웃 액션 호출
   sessionStore.signOut();
   // Nuxt의 navigateTo 유틸리티를 사용하여 로그인 페이지로 리디렉션
-  await navigateTo('/sign-in');
+  await navigateTo('/auth/sign-in');
 };
 </script>
 
